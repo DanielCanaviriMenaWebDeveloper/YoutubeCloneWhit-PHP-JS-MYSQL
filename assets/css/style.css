@@ -121,4 +121,7 @@ html, body {
     height: 20px;
 }
 
+#mastHeadContainer {
+    color: red;
+}
 
