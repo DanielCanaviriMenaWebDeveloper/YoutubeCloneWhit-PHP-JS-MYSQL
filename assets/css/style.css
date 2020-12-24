@@ -8,7 +8,7 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #fafafa;
-    background-color: rgb(6, 59, 42);
+    background-color: #17497f
 }
 
 #mastHeadContainer {
@@ -27,7 +27,10 @@ html, body {
     align-items: center;
 }
 
-#mastHeadContainer button {
+#mastHeadContainer button:not(.searchButton),
+#mastHeadContainer .rightIcons img {
+    /* Aplica los estilos a cualquier button dentro del elemento con id "mastHeadContainer", 
+    excepto al button que tenga la clase "searchButton" */
     cursor: pointer;
     width: 40px;
     height: 40px;
@@ -76,5 +79,46 @@ html, body {
     padding: 10px 30px;
 }
 
+/* Search Component */
+#mastHeadContainer .searchBarContainer {
+    margin: 0 40px;
+    flex: 1; /* Ocupe todo el espacio restante disponible  */
+    display: flex;
+}
+
+#mastHeadContainer .searchBarContainer form {
+    flex: 1;
+    display: flex;
+}
+
+#mastHeadContainer .searchBarContainer form input {
+    flex: 1;
+    max-width: 600px;
+    color: #111;
+    padding: 2px 6px;
+    font-size: 14px;
+    font-weight: 100;
+    border: 1px solid #ccc;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-right: none;
+    box-shadow: #eee 0px 1px 2px 0px inset; /* inset permite que la sombra sea interna */
+    height: 32px;
+}
+
+#mastHeadContainer .searchBarContainer .searchButton {
+    height: 32px;
+    background-color: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    width: 65px;
+}
+
+#mastHeadContainer .searchBarContainer .searchButton img {
+    width: 20px;
+    height: 20px;
+}
 
 
