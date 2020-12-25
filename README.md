@@ -2,4 +2,6 @@
 
 En este proyecto se realizo un clon de la red social Youtube, utilizando PHP-7, JavaScript y MySQL 
 
-Proyecto primordial 
+Proyecto en proceso de desarrollo 
+
+24 de Diciembre se finalizo la parte del diseño del Header
