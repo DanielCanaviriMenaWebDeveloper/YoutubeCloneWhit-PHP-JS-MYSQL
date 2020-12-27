@@ -7,3 +7,5 @@ Proyecto en proceso de desarrollo
 24 de Diciembre se finalizo la parte del diseño del Header
 
 <a href="hola.html">Hola</a>
+
+<img href="https://github.com/DanielCanaviriMenaWebDeveloper/YoutubeCloneWhit-PHP-JS-MYSQL/blob/master/screenshots/Header.png">
